@@ -1,22 +1,26 @@
 .App {
-  text-align: center;
+  min-width: 572px;
+  width: 80%;
+  margin: 80px auto 0;
 }
 
-.App-logo {
-  height: 40vmin;
+.blog__title {
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.about, .blog, .blog__article, .about__content {
+  white-space: pre-line;
 }
 
-.App-link {
-  color: #09d3ac;
+.blog__article {
+  padding: 0 30px;
+  margin: 10px 0;
+}
+
+.blog__post > .blog__title {
+  border: 0;
 }
